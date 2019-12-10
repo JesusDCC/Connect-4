@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="connect.css">
+	<title> Connect 4 </title>
+	<button type="submit" onclick="displayrank()">Ranking</button>
+	
+</head>
+
+<body>
+	<div id = hiderank>
+<input type="button" value="Voltar" onClick="location.href=location.href">
+	</div>
+	<div id="area_login">
+
+		<div id = "login">
+
+		<img src="logo1.png" alt="Logo Connect 4">
+		<input type="text" id="user" placeholder="username">
+		<input type="password" id="pass" placeholder="password">
+		<button type="submit" onclick="register()">Login</button>
+
+		</div>
+
+	</div>
+	<div id="desistir">
+		<button type="submit" onclick="leave()">Desistir</button>
+	</div>
+
+	<div id=game_info>
+		<!-- ADICIONAR INFO-->
+	</div>
+	<div id = "erro"> Os dados que introduziu estão errados 
+		<script>
+			document.getElementById("login").style.display = "block";
+		</script>
+	</div>
+	<div id = "onorof">
+		<p>Escolha o modo em que pretende jogar:</p>
+		<button type ="submit" onclick="callSizeon()">Online</button>
+		<button type ="submit" onclick="callSize()">Offline</button>
+	</div>
+
+	<div id="area_njogadores">
+
+	<div id="game_type">
+		<img src="logo1.png" alt="Logo Connect 4">
+		Bem vindo!
+		<input type="number" id="nplayers" min="1" max="2" placeholder="numero de jogadores">
+
+		<button type="submit" onclick="typeSubmitted()">Submit</button> 
+	</div>
+
+	</div>
+
+	<div id="wait">
+		Aguarde por um adversário
+	</div>
+	<div id="area_dificuldade">
+
+		<div id="difficult">
+			<img src="brain.png" alt="Logo Connect 4">
+			<input type="number" name="dif" min="1" max="3" placeholder="nivel de dificuldade">
+			<button type="submit" onclick="callSize()">Submit</button>
+		</div>
+
+	</div>
+
+	<div id="area_primeirojogador">
+
+		<div id = "two_players">
+			<img src="logo1.png" alt="Logo Connect 4">
+			<input type="number" id="order" min="1" max="2" placeholder="numero do jogador que vai comecar">
+			<button type="submit" onclick="callSize()">Submit</button>
+		</div>
+	</div>
+	<div id=tabela_rank>
+	</div>
+	<div id="area_tamanho">
+
+		<div id ="game_sizeon">
+			<img src="logo1.png" alt="Logo Connect 4" width="100%">
+			<input id = "linhason" type="number" min="4" placeholder="numero de linhas">
+			<input id = "colunason" type="number" min="4" placeholder="numero de colunas">
+	 		<button onclick="join()">Submit</button>	
+		</div>
+
+		<div id ="game_size">
+			<img src="logo1.png" alt="Logo Connect 4" width="100%">
+			<input id = "linhas" type="number" min="4" placeholder="numero de linhas">
+			<input id = "colunas" type="number" min="4" placeholder="numero de colunas">
+	 		<button onclick="tabuleiro()">Submit</button>	
+		</div>
+
+	</div>
+
+	<center><div id="caixa">
+
+	</div>
+	<div id=start>
+	<button type="submit" onclick="beginGame()">Novo jogo </button>
+	<button type="submit" onclick="alert('Junta quatro peças na horizontal , na vertical ou na diagonal para vencer !')">Instruções</button>
+</div>
+<div id=voltar>
+<input type="button" value="Voltar" onClick="location.href=location.href">
+</div>
+<div id = rankingpage>
+	<input id = "linhasr" type="number" min="4" placeholder="numero de linhas">
+	<input id = "colunasr" type="number" min="4" placeholder="numero de colunas">
+	<button type="submit" onclick="ranking()">Submit</button>
+</div>
+	<div id ="waitoponente">
+		Aguarde um oponente! 
+	</div>
+	<script>
+		document.getElementById("start").style.display = "none";
+		document.getElementById("game_info").style.display = "none";
+		document.getElementById("game_type").style.display = "none";
+		document.getElementById("two_players").style.display = "none";
+		document.getElementById("game_size").style.display = "none";
+		document.getElementById("caixa").style.display = "none";
+		document.getElementById("difficult").style.display = "none";
+		document.getElementById("onorof").style.display = "none";
+		document.getElementById("erro").style.display = "none";
+		document.getElementById("game_sizeon").style.display = "none";
+		document.getElementById("wait").style.display = "none";
+		document.getElementById("desistir").style.display = "none";
+		document.getElementById("voltar").style.display = "none";
+		document.getElementById("rankingpage").style.display = "none";
+		document.getElementById("hiderank").style.display = "none";
+		document.getElementById("waitoponente").style.display = "none";
+
+
+
+
+
+
+
+	</script>
+
+	<script type="text/javascript" src="connect.js"></script>
+
+
+</body>
+</html>
+
+
+<!--document.getelementById().style.display="none" "block"-->

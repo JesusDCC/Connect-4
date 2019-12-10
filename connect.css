@@ -1,0 +1,279 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+
+.coluna{
+	float:left;
+	border:solid blue 2px;
+	background-color: #0000FF;
+}
+.bloco{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border-width: 1px;
+	background-color: white;
+}
+	.player0 {
+		background-color: #DDDDDD; 
+	}
+			
+
+	.player1 {
+		background-color: #FF0000;
+	}
+			
+	.player2 {
+		background-color: #FFFF00;	
+	}
+
+#area_login{
+	 width: 360px;
+  	padding: 8% 0 0;
+  	margin: auto;
+}
+
+#login{
+	position: relative;
+  	z-index: 1;
+  	background: #FFFFFF;
+  	max-width: 360px;
+  	margin: 0 auto 100px;
+  	padding: 45px;
+  	text-align: center;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	display: block;	
+}
+
+#login input{
+	font-family: "Roboto", sans-serif;
+  	outline: 0;
+  	background: #f2f2f2;
+  	width: 100%;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+
+}
+
+#login button{
+	font-family: "Roboto", sans-serif;
+  	text-transform: uppercase;
+  	outline: 0;
+  	background: #66d9ff;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	-webkit-transition: all 0.3 ease;
+  	transition: all 0.3 ease;
+  	cursor: pointer;
+}
+
+#login img{
+	width: 100%;
+}
+
+#area_njogadores{
+	width: 360px;
+  	padding: 8% 0 0;
+  	margin: auto;	
+}
+
+#game_type{
+	position: relative;
+  	z-index: 1;
+  	background: #FFFFFF;
+  	max-width: 360px;
+  	margin: 0 auto 100px;
+  	padding: 45px;
+  	text-align: center;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	display: block;	
+}
+
+#game_type input{
+	font-family: "Roboto", sans-serif;
+  	outline: 0;
+  	background: #f2f2f2;
+  	width: 100%;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+#game_type button{
+	font-family: "Roboto", sans-serif;
+  	text-transform: uppercase;
+  	outline: 0;
+  	background: #66d9ff;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	-webkit-transition: all 0.3 ease;
+  	transition: all 0.3 ease;
+  	cursor: pointer;
+}
+
+#game_type img{
+	width: 100%;
+}
+
+#area_dificuldade{
+	width: 360px;
+  	padding: 8% 0 0;
+  	margin: auto;
+}
+
+#difficult{
+	position: relative;
+  	z-index: 1;
+  	background: #FFFFFF;
+  	max-width: 360px;
+  	margin: 0 auto 100px;
+  	padding: 45px;
+  	text-align: center;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	display: block;	
+}
+
+#difficult input{
+	font-family: "Roboto", sans-serif;
+  	outline: 0;
+  	background: #f2f2f2;
+  	width: 100%;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+#difficult button{
+	font-family: "Roboto", sans-serif;
+  	text-transform: uppercase;
+  	outline: 0;
+  	background: #66d9ff;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	-webkit-transition: all 0.3 ease;
+  	transition: all 0.3 ease;
+  	cursor: pointer;
+}
+
+#difficult img {
+	width: 40%;
+}
+
+#area_primeirojogador{
+	width: 360px;
+  	padding: 8% 0 0;
+  	margin: auto
+}
+
+#two_players{
+	position: relative;
+  	z-index: 1;
+  	background: #FFFFFF;
+  	max-width: 360px;
+  	margin: 0 auto 100px;
+  	padding: 45px;
+  	text-align: center;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	display: block;	
+}
+
+#two_players input{
+	font-family: "Roboto", sans-serif;
+  	outline: 0;
+  	background: #f2f2f2;
+  	width: 100%;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+#two_players button{
+	font-family: "Roboto", sans-serif;
+  	text-transform: uppercase;
+  	outline: 0;
+  	background: #66d9ff;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	-webkit-transition: all 0.3 ease;
+  	transition: all 0.3 ease;
+  	cursor: pointer;
+}
+
+#two_players img{
+	width: 100%;
+}
+
+#area_tamanho{
+	width: 360px;
+  	padding: 8% 0 0;
+  	margin: auto
+}
+
+#game_size{
+	position: relative;
+  	z-index: 1;
+  	background: #FFFFFF;
+  	max-width: 360px;
+  	margin: 0 auto 100px;
+  	padding: 45px;
+  	text-align: center;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	display: block;	
+}
+
+#game_size input{
+	font-family: "Roboto", sans-serif;
+  	outline: 0;
+  	background: #f2f2f2;
+  	width: 100%;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+#game_size button{
+	font-family: "Roboto", sans-serif;
+  	text-transform: uppercase;
+  	outline: 0;
+  	background: #66d9ff;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	-webkit-transition: all 0.3 ease;
+  	transition: all 0.3 ease;
+  	cursor: pointer;
+}
+
+
+
